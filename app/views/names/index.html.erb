@@ -15,7 +15,7 @@
     <% @names.each do |name| %>
       <tr>
         <td><%= link_to name.id, name_path(name) %></td>
-        <td><%= name.clid %></td>
+        <td><%= name.phone_number %></td>
         <td><%= name.display_name %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

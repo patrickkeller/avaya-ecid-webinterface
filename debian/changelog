@@ -1,9 +1,0 @@
-ecid_webgui (0.2.0-1) unstable; urgency=low
-
-  * 834442b pkgr
-  * fe8de7c cron möglichkeit hinzugefügt
-  * fd0da9f interface ecid
-  * 101b536 initial commit
-
- --  <>  Thu, 25 Apr 2013 21:30:27 +0200
-

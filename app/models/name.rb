@@ -1,3 +1,4 @@
 class Name < ActiveRecord::Base
-  attr_accessible :clid, :display_name, :id
+  set_table_name "ecid_data"
+  attr_accessible :phone_number, :display_name, :id
 end

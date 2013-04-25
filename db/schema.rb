@@ -13,8 +13,8 @@
 
 ActiveRecord::Schema.define(:version => 20130425111505) do
 
-  create_table "names", :force => true do |t|
-    t.string "clid"
+  create_table "ecid_data", :force => true do |t|
+    t.string "phone_number"
     t.string "display_name"
   end
 
