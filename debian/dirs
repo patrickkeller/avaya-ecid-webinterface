@@ -1,0 +1,2 @@
+var/log/ecid_webgui
+var/db/ecid_webgui

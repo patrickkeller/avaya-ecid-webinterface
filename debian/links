@@ -1,0 +1,7 @@
+
+etc/ecid_webgui/pkgr.yml opt/local/ecid_webgui/config/pkgr.yml
+
+etc/ecid_webgui/database.yml opt/local/ecid_webgui/config/database.yml
+
+var/log/ecid_webgui opt/local/ecid_webgui/log
+var/db/ecid_webgui opt/local/ecid_webgui/db

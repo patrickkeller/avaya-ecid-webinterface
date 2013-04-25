@@ -1,0 +1,10 @@
+# ecid_webgui logs:
+/var/log/ecid_webgui/*.log {
+  daily
+  missingok
+  rotate 14
+  compress
+  delaycompress
+  notifempty
+  copytruncate
+}

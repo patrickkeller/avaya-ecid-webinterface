@@ -1,0 +1,24 @@
+---
+version: 0.1.0
+name: ecid_webgui
+description: 
+git_ref: pkgr-master
+config_files:
+- pkgr.yml
+- database.yml
+architecture: i386
+debian_runtime_dependencies:
+- ${shlibs:Depends}
+- ${misc:Depends}
+- ruby1.9.1-full
+- git-core
+- libxml2
+- libxslt1.1
+debian_build_dependencies:
+- debhelper (>= 7)
+- dpkg-dev
+- ruby1.9.1-full
+- libmysqlclient15-dev
+- libxml2-dev
+- libxslt-dev
+- libsqlite3-dev

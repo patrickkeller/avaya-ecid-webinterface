@@ -65,6 +65,8 @@ GEM
     mime-types (1.23)
     multi_json (1.7.2)
     pg (0.15.1)
+    pkgr (0.3.4)
+      rake
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -139,6 +141,7 @@ DEPENDENCIES
   jquery-rails
   less-rails
   pg
+  pkgr
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   therubyracer
