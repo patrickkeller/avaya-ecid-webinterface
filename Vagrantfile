@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "debian6-v2"
+  config.vm.box = "centos56"
   # Assign more memory
   config.vm.customize ["modifyvm", :id, "--memory", 1024]
 
